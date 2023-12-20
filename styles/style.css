@@ -1,51 +1,63 @@
 body{
     margin: 0px;
     padding: 0px;
-    background-color:rgba(187, 98, 15, 0.923);
+    background-color:rgba(5, 5, 5, 0.852);
 }
 
 section{
-    background-color: rgba(220, 214, 115, 0.501);
+    background-color: rgba(217, 217, 201, 0.682);
     padding: 5px;
     margin: 15px;
-    border-radius: 10px;
-    
+    border-radius: 10px;    
 }
 
 #profile-pic{
-    height: 150px !important;
-    width: 150px !important;
+    height: 250px !important;
+    width: 250px !important;
     border-radius: 100% !important;
     object-fit: cover !important;
 }
 
 #section1 img{
     background-color: gray;
-    height: 150px;
-    width: 150px;
+    height: 350px;
+    width: 350px;
     border-radius: 100%;
     object-fit: contain;
 }
 
-#section2 p{
-    style="color: blue;"
+#section1 h1{
+    text-align:center;
 }
 
-#section3 img{
+#section2 h2{
+    color:rgb(11, 11, 97);
+}
+#section3 h2{
+    color: rgb(11, 11, 97);
+}
+#section4 h2{
+    color: rgb(11, 11, 97);
+}
+#section5 img{
     height: 450px;
     width: 450px;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
-
-#section4 .contenedor{
-    display: flex;
-    flex-direction: column;
+#section5 h2{
+    color: rgb(11, 11, 97);
 }
 
-#section4 .columna{
-    max-width: 300px;
-    margin: 0 auto;
-    padding: 10px;
+#section6 h2{
+    color: rgb(11, 11, 97)
+}
+
+#section6 img{
+    height: 450;
+    width: 450;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
