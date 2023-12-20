@@ -1,7 +1,51 @@
 body{
-    color:brown;
+    margin: 0px;
+    padding: 0px;
+    background-color:rgba(187, 98, 15, 0.923);
 }
 
 section{
-    background-color: beige;
+    background-color: rgba(220, 214, 115, 0.501);
+    padding: 5px;
+    margin: 15px;
+    border-radius: 10px;
+    
+}
+
+#profile-pic{
+    height: 150px !important;
+    width: 150px !important;
+    border-radius: 100% !important;
+    object-fit: cover !important;
+}
+
+#section1 img{
+    background-color: gray;
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    object-fit: contain;
+}
+
+#section2 p{
+    style="color: blue;"
+}
+
+#section3 img{
+    height: 450px;
+    width: 450px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#section4 .contenedor{
+    display: flex;
+    flex-direction: column;
+}
+
+#section4 .columna{
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 10px;
 }
